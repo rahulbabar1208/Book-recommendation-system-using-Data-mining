@@ -1,0 +1,222 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 6, 2014, 4:32:10 PM
+    Author     : admin
+*/
+
+
+/** BASIC */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(image/img02.jpg) repeat-x left top;
+        //background: url(image/home.gif) repeat-x left top;
+	line-height: 20px;
+	text-align: justify;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #666666;
+}
+#bd{
+    background-color:  #FFFFF;
+    //color: #FFFFFF;
+}
+
+.scrollit {
+    overflow:scroll;
+    height:500px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+a {
+	color: #0077dd;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.list1 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list1 a {
+	background: url(image/img01.gif) no-repeat left 60%;
+	padding-left: 12px;
+}
+
+.list2 {
+	margin: 0;
+	list-style: none;
+}
+
+.list2 a {
+	background: url(image/img01.gif) no-repeat left 60%;
+	padding-left: 12px;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;       
+	margin: 3px 20px 0px 0px;
+}
+
+/** HEADER */
+
+#header {
+	width: 778px;
+	margin: 0px auto;
+	padding: 1em;
+	height: 90px;
+	color: #254360;
+}
+
+#header h1 {
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+        color: #FFFFFF;
+}
+
+#header h2 {
+	margin: 0 0 0 -80px;
+	padding: 0px 0px 0px 95px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+/** MENU */
+
+#menu {
+	width: 778px;
+	margin: 0px auto;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	//background: url(image/img04.gif) no-repeat right 50%;
+	padding: 0px 20px 0px 20px;
+	text-decoration: none;
+	//text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background: #FFFFFF;
+	color: #254360;
+}
+
+#menu .active {
+	background: #FFFFFF;
+	color: #254360;
+}
+
+/** CONTENT */
+
+#content {
+	width: 778px;
+	margin: 0px auto;
+	padding: 40px 0px 20px 0px;
+        font-family: sans-serif;
+        font-size: medium;
+}
+
+#columnA {
+	float: right;
+	width: 538px;
+	padding-left: 20px;
+	border-left: 1px dashed #EEEEEE;
+}
+
+#columnA h2 {
+	height: 22px;
+	border-bottom: 1px dashed #EEEEEE;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+#columnB {
+	float: left;
+	width: 200px;
+}
+
+#columnB h3 {
+	height: 22px;
+	border-bottom: 1px dashed #EEEEEE;
+	border-spacing: 2px;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+/** FOOTER */
+
+#footer {
+	clear: both;
+	margin: 0px auto;
+	height: 59px;
+	background: url(image/img03.gif) repeat-x left top;
+       // background: url(image/foot1.png) repeat-x left top;
+	text-align: center;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 18px 0px 0px 0px;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #CCCCCC;
+}
+
+
+#menu ul 
+{
+padding: auto; margin: auto; list-style:none;
+}
+#menu li 
+{
+float:left; position:relative; padding-right: auto; display:block;
+//border:4px solid #CC55FF; 
+//border-style:inset;
+}
+#menu li ul {
+    display:none;
+position:absolute;
+}
+#menu li:hover ul{
+    display:block;
+    //background:#FF9933;
+    background: #CCCCCC;
+height:auto; width:13em; 
+}
+#menu li ul li{
+    clear:both;
+border-style:none;}
